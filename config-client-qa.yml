@@ -1,0 +1,16 @@
+user:
+  role: qa
+
+rabbitmq:
+  config:
+    queue:
+      responseProductList: QA
+      requestProductList: QA
+      createProduct: QA
+
+    exchange: QA
+
+    routingKey:
+      responseProductList: QA
+      requestProductList: QA
+      createProduct: QA
