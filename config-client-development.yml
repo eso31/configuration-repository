@@ -3,14 +3,12 @@ user:
 
 rabbitmq:
   config:
-    queue:
-      responseProductList: responseProductListQ
-      requestProductList: requestProductListQ
+    queues:
+      productList: productListQ
       createProduct: createProductQ
 
     exchange: productExchange
 
-    routingKey:
-      responseProductList: responseProductListKey
-      requestProductList: requestProductListKey
+    routingKeys:
+      productList: productListKey
       createProduct: createProductKey
